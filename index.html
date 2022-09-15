@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Web: Onde vende tudo.</title>
-
+    <title>LojaWEB: onde vende tudo!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> -->
 
     <link rel="stylesheet" href="/css/root.css">
     <link rel="stylesheet" href="/css/default.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/style.css">
-    <llink rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="/css/colors.css">
 </head>
 
 <body class="black">
     <main>
         <header class="row">
             <div class="logo col-2">
-                <img src="/img/logoamazon.png" alt="logo amazon" height="50">
+                <img src="./img/logoamazon.png" alt="logomarca Amazon" height="50">
             </div>
             <div class="localizacao col-2">
                 <div>
                     <i class="fa fa-map-marker-alt"></i>
-
+                    <!-- <img src="./img/map-svgrepo-com.svg" alt=""> -->
                 </div>
                 <div>
-                    <span> Olá</span>
+                    <span>Olá</span>
                     <span>Selecione o endereço</span>
                 </div>
             </div>
             <div class="pesquisa col-4">
-                <form action="" class="formPesquisa">
+                <form action="" class="formPerquisa">
                     <label for="selectTipo"></label>
-                    <select name="tipoProduto" id="selectTipo" title="Tipo do Produto">
+                    <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
                         <option value="0" selected>
                             Todos
                         </option>
@@ -49,16 +52,15 @@
 
                     <label for="nomeProduto"></label>
                     <input type="text" name="nomeProduto" id="nomeProduto" title="Nome do Produto"
-                        placeholder="Nome do Produto">
+                        placeholder="Nome do produto">
 
                     <!-- <label for=""></label> -->
-                    <!-- <input type="submit"> -->
+                    <!-- <input type="submit" value=""> -->
                     <button type="submit" title="Fazer Pesquisa">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
             </div>
-
             <div class="login col-2">
                 <span>
                     Olá, faça seu login
@@ -68,23 +70,21 @@
                 </span>
             </div>
             <div class="pedidos col-1">
-                <span> Devoluções </span>
+                <span>Devoluções</span>
                 <span>e Pedidos</span>
             </div>
             <div class="carrinho col-1">
                 <span>0</span>
                 <span>CAR</span>
             </div>
-
         </header>
-        <nav class="nav">
-            <ul>
+        <nav class="row bg-blue">
+            <ul class="menu white col-8">
                 <li>
                     <button title="menu">
                         <i class="fa fa-solid fa-bars"></i>
                         <span>Todos</span>
                     </button>
-
                 </li>
                 <li>
                     <a href="">
@@ -96,15 +96,55 @@
                         Mais Vendidos
                     </a>
                 </li>
+                <li>
+                    <a href="">
+                        Prime
+                        <i class="fa fa-solid fa-caret-down"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="menu white col-4 promocional right">
+                <li>
+                    <a href="promocional.html">
+                        <img src="img/0118_SC22_SWM2_400x39._CB612360418_.jpg" alt="promocional" height="30"
+                            class="w-100">
+                    </a>
+                </li>
             </ul>
         </nav>
-        <section class="carrossel">
-            <img src="./img/backblue.jpg" alt="background">
 
+        <section class="container row">
+            <div class="carousel col-12">
+                carousel
+            </div>
+            <div class="produtos col-12">
+                <div class="produto col-3 ">
+                    <div class="bg-blue">
+                        produto 1
+                    </div>
+                </div>
+
+                <div class="produto col-3 ">
+                    <div class="bg-blue produto-item">
+                        produto 2
+                    </div>
+                </div>
+
+                <div class="produto col-3 ">
+                    <div class="bg-blue">
+                        produto 3
+                    </div>
+                </div>
+
+                <div class="produto col-3 ">
+                    <div class="bg-blue">
+                        produto 4
+                    </div>
+                </div>
+            </div>
         </section>
-
     </main>
-
 </body>
 
 </html>

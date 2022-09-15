@@ -1,3 +1,8 @@
+header {
+    background-color: var(--blue-dark);
+    color: var(--white);
+}
+
 .logo img {
     width: 100%;
     height: auto;
@@ -8,10 +13,7 @@
     color: var(--white);
 }
 
-header {
-    background-color: #131921;
-    color: var(--white);
-}
+
 
 .formPesquisa {
     background-color: var(--white);
@@ -19,7 +21,7 @@ header {
 }
 
 .formPesquisa {
-    border: solid 3px #fedd69;
+    border: solid 3px;
 }
 
 .formPesquisa select,

@@ -2,30 +2,41 @@
 
 
 body {
-    font-family: var(--font-01);
+
     font-family: var(--font-arial);
     font-size: var(--fs-12);
 }
 
-/* nav */
-.nav {
-    background-color: #232f3e;
-    color: white;
-    height: 40px;
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px 20px;
-}
-
-.carrossel {
-    background-color: rgb(65, 186, 186);
-    height: 900px;
+.menu a {
+    /* background-color: var(--blue); */
+    color: var(--white);
+    text-decoration: none;
 
 }
 
-.produtos {
-    border: 5px solid;
-    width: 300px;
-    height: 250px;
+nav ul li {
+    display: inline-block;
 }
+
+/* nav .promocional {
+    text-align: right;
+}
+
+
+nav .promocional img {
+    width: 100%;
+    min-width: 300px;
+} */
+
+.carousel {
+    height: 200px;
+    background-color: rgb(130, 127, 127);
+}
+
+.produto {
+    padding: 0 5px;
+    color: aliceblue;
+
+}
+
+.protudo-item {}
