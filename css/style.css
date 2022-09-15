@@ -7,9 +7,6 @@ body {
     font-size: var(--fs-12);
 }
 
-
-
-
 /* nav */
 .nav {
     background-color: #232f3e;
@@ -19,4 +16,16 @@ body {
     margin: 0 auto;
     text-align: center;
     padding: 10px 20px;
+}
+
+.carrossel {
+    background-color: rgb(65, 186, 186);
+    height: 900px;
+
+}
+
+.produtos {
+    border: 5px solid;
+    width: 300px;
+    height: 250px;
 }
