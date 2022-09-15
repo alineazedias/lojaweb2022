@@ -6,28 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja Web: Onde vende tudo.</title>
-    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.min.css">
+
     <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/style.css">
+
 </head>
 
 <body class="black">
     <main>
-        <header>
-            <div class="logo">
+        <header class="row">
+            <div class="logo col-2">
                 <img src="/img/logoamazon.png" alt="logo amazon" height="50">
             </div>
-            <div class="localizacao bg-gray"></div>
-            <div>?</div>
-            <div>
-                <span> Olá</span>
-                <span>Selecione o endereço</span>
+            <div class="localizacao col-2">
+                <div>
+                    <i class="fa fa-map-marker-alt"></i>
+
+                </div>
+                <div>
+                    <span> Olá</span>
+                    <span>Selecione o endereço</span>
+                </div>
             </div>
-            <div class="pesquisa black bg-gray">
+            <div class="pesquisa col-4">
                 <form action="" class="formPesquisa">
                     <label for="selectTipo"></label>
                     <select name="tipoProduto" id="selectTipo" title="Tipo do Produto">
                         <option value="0" selected>
-                            Todos os Protudos
+                            Todos
                         </option>
                         <option value="1">
                             Eletrônicos
@@ -47,18 +55,33 @@
                 </form>
             </div>
 
-            <div class="login"></div>
-            <span>Olá, faça seu login</span>
-            <span>Contas e Listas</span>
+            <div class="login col-2">
+                <span>
+                    Olá, faça seu login
+                </span>
+                <span>
+                    Contas e Listas
+                </span>
             </div>
-            <div class="pedidos">
-                <span> 0 </span>
+            <div class="pedidos col-1">
+                <span> Devoluções </span>
+                <span>e Pedidos</span>
+            </div>
+            <div class="carrinho col-1">
+                <span>0</span>
                 <span>CAR</span>
             </div>
 
         </header>
-        <nav>
-
+        <nav class="nav">
+            <a>Todos</a>
+            <a> Venda na Amazon</a>
+            <a> Mais Vendidos</a>
+            <a>Ofertas o Dia</a>
+            <a>Atedimento ao Cliente</a>
+            <a>Prime</a>
+            <a>Música</a>
+            <a>Livros</a>
         </nav>
     </main>
 </body>

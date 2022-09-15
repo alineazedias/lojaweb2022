@@ -1,10 +1,85 @@
-.black{
-    color:;
-}
-
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 13px;
+.black {
     color: #222;
 }
 
+.bg-gray {
+    background-color: rgb(222, 213, 213);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+
+}
+
+.icon {
+    color: #fff;
+}
+
+header {
+    background-color: #131921;
+    color: #fff;
+}
+
+.nav {
+    background-color: #232f3e;
+    color: white;
+    height: 40px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.formPesquisa {
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.formPesquisa select,
+.formPesquisa input,
+.formPesquisa button {
+    height: 40px;
+    border-radius: none;
+}
+
+.formPesquisa select {
+    background-color: #dadada;
+    padding-left: 10px;
+    width: 35%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.formPesquisa input {
+    width: 48%;
+}
+
+.formPesquisa button {
+    padding: 0 10px;
+    width: 15%;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media (max-width: 760px) {
+    .formPesquisa select {
+        display: none;
+    }
+
+    .formPesquisa input {
+        width: 85%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+
+    }
+
+}
