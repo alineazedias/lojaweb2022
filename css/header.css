@@ -1,19 +1,16 @@
 header {
     background-color: var(--blue-dark);
-    color: var(--white);
+    color: #fff;
 }
 
 .logo img {
-    width: 100%;
     height: auto;
-
+    width: 100%;
 }
 
 .icon {
     color: var(--white);
 }
-
-
 
 .formPesquisa {
     background-color: var(--white);

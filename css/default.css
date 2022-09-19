@@ -1,3 +1,4 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -61,8 +62,9 @@
 [class*="col-"] {
     float: left;
     padding: 10px;
-    /* border: 1px solid #red; */
+    /* border: 1px solid red; */
 }
+
 
 /*equivalente ao clearfix*/
 .row::after {
@@ -85,7 +87,6 @@
     text-align: center;
     margin: auto;
 }
-
 
 .w-100 {
     width: 100%;
@@ -113,7 +114,7 @@
 }
 
 .my-1 {
-    margin: 5%px 0;
+    margin: 5% 0;
 }
 
 .container {
@@ -123,12 +124,10 @@
     margin: auto;
 }
 
-
 @media (max-width: 460px) {
     [class*="col-"] {
         width: 100%;
     }
-
 }
 
 @media (max-width: 760px) {
