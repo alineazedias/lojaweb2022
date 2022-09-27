@@ -46,3 +46,19 @@
 .bg-blue-dark {
     background-color: var(--blue-dark);
 }
+
+.red {
+    color: var(--red);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.red-dark {
+    color: var(--red-dark);
+}
+
+.bg-red-dark {
+    background-color: var(--red-dark);
+}
