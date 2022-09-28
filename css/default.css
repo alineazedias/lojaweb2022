@@ -125,7 +125,7 @@
 }
 
 /* flex */
-.d.flex {
+.d-flex {
     display: flex;
 }
 
@@ -144,6 +144,9 @@
 .align-items-center {
     align-items: space-around;
 }
+
+
+
 
 @media (max-width: 460px) {
     [class*="col-"] {

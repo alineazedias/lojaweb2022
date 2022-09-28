@@ -121,15 +121,15 @@ section {
     text-decoration: underline;
 }
 
-.c ar-icon {
+.car-icon {
     font-size: 32px;
 }
 
 .produto-categora-carousel-item {
     /* display: flex;
     justify-content: space-around;
-    align-items: center; */
-    height: 25px;
+    align-items: center;  */
+    height: 250px;
 }
 
 .produto-categoria-carousel a {
