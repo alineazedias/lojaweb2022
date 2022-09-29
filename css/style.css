@@ -149,7 +149,7 @@ section {
     width: 50px;
     height: 100px;
     padding-top: 25px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
 }
 
 .setas i {
