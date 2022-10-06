@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="../css/pages/cart.css">
 </head>
 
 <body class="black">
@@ -84,26 +85,93 @@
                 </span>
             </div>
         </header>
+        <nav class="row bg-blue">
+            <ul class="menu white col-8">
+                <li>
+                    <button title="menu">
+                        <i class="fa fa-solid fa-bars"></i>
+                        <span>Todos</span>
+                    </button>
+                </li>
+                <li>
+                    <a href="">
+                        Venda na Amazon
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Mais Vendidos
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Prime
+                        <i class="fa fa-solid fa-caret-down"></i>
+                    </a>
+                </li>
+            </ul>
 
-        <nav class="row bg-white col-12">
-            <div class="carrinho2">
-                <h1>Carrinho de compras</h1>
-                <div class="produtocarrinho">
-                    <img src="/img/produtocarrinho/51degAt5CFL._AC_AA180_.jpg">
-                    <div class="col-9">
-                        <h2>Fire TV Stick | Streaming em Full HD com Alexa | Com Controle Remoto por Voz com Alexa
-                            (inclui comandos de TV)</h2>
-                    </div>
-                    <h3>R$ 360,05</h3>
-                </div>
-                <div>
-                    <img src="/img/produtocarrinho/714Rq4k05UL._AC_AA180_.jpg">
-                    <h2>Echo Dot (4ª Geração): Smart Speaker com Alexa - Cor Preta</h2>
-                    <h3>R$ 379,05</h3>
-                </div>
+            <div class="bg-gray">
+                <main class="row cart">
+                    <section class="col-12 col-md-9">
+                        <div class="">
+                            <h2 class="m-0">
+                                Carrinho de compras
+                            </h2>
+                            <p class="border-bottom bd-gray text-end">
+                                Preço
+                                <!-- <hr class="m-0"> -->
+                            </p>
+                            <div
+                                class="border-bottom bd-gray d-flex flex-column flex-md-row justify-content-between py-3">
+                                <div class="cart-photo">
+                                    <img src="../img/produtocarrinho/51degAt5CFL._AC_AA180_.jpg" alt="foto produto">
+                                </div>
+                                <div class="cart-context flex-grow-1 px-3">
+                                    <span class="px-3">Fire TV Stick | Streaming em Full HD com Alexa
+                                        Stick | Streaming em Full HD com Alexa </span> | <span class="px-3">Com Controle
+                                        Remoto por Voz com Alexa (inclui comandos de TV)</span>
+                                </div>
+                                <div class="cart-value">
+                                    R$ 360,05
+                                </div>
+                            </div>
+                            <div
+                                class="border-bottom bd-gray d-flex flex-column flex-md-row justify-content-between py-3">
+                                <div class="cart-photo">
+                                    <img src="../img/produtocarrinho/714Rq4k05UL._AC_AA180_.jpg" alt="foto produto">
+                                </div>
+                                <div class="cart-context flex-grow-1 px-3">
+                                    <span class="px-3">Echo Dot (4ª Geração): Smart Speaker com Alexa - Cor PretaEcho
+                                        Dot (4ª Geração): Smart Speaker com Alexa</span> | <span class="px-3"> Cor
+                                        Preta</span>
+                                </div>
+                                <div class="cart-value">
+                                    R$ 379,05
+                                </div>
+                            </div>
+                            <p class="text-end">
+                                Subtotal (2 itens): R$ 739,10
+                            </p>
+                        </div>
+                        <div>
+                            ????
+                        </div>
+                    </section>
+
+                    <aside class="col-12 col-md-3">
+                        <div>
+                            Detalhe valor
+                        </div>
+                        <div>
+                            Publicidade
+                        </div>
+                    </aside>
+                </main>
             </div>
-        </nav>
-    </main>
-</body>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+                integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+                crossorigin="anonymous"></script>
 
 </html>
