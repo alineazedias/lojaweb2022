@@ -22,3 +22,88 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/colors.css">
 </head>
+
+<body class="black">
+    <main>
+        <header class="row">
+            <div class="logo col-2">
+                <img src="/img/logoamazon.png" alt="logomarca Amazon" height="50">
+            </div>
+            <div class="localizacao col-2">
+                <div>
+                    <i class="fa fa-map-marker-alt"></i>
+                    <!-- <img src="./img/map-svgrepo-com.svg" alt=""> -->
+                </div>
+                <div>
+                    <span>Olá</span>
+                    <span>Selecione o endereço</span>
+                </div>
+            </div>
+            <div class="pesquisa col-4">
+                <form action="" class="formPesquisa">
+                    <label for="selectTipo"></label>
+                    <select name="tipoProduto" id="selectTipo" title="Tipo do produto">
+                        <option value="0" selected>
+                            Todos
+                        </option>
+                        <option value="1">
+                            Eletrônicos
+                        </option>
+                        <option value="2">
+                            Casa
+                        </option>
+                    </select>
+
+                    <label for="nomeProduto"></label>
+                    <input type="text" name="nomeProduto" id="nomeProduto" title="Nome do Produto"
+                        placeholder="Nome do produto">
+
+                    <!-- <label for=""></label> -->
+                    <!-- <input type="submit" value=""> -->
+                    <button type="submit" title="Fazer Pesquisa">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="login col-2">
+                <span>
+                    Olá, faça seu login
+                </span>
+                <span>
+                    Contas e Listas
+                </span>
+            </div>
+            <div class="pedidos col-1">
+                <span>Devoluções</span>
+                <span>e Pedidos</span>
+            </div>
+            <div class="carrinho col-1">
+                <span>2</span>
+                <span class="car-icon">
+                    <i class="fab fa-opencart"></i>
+                </span>
+            </div>
+        </header>
+
+        <nav class="row bg-white col-12">
+            <div class="carrinho2">
+                <h1>Carrinho de compras</h1>
+                <div class="produtocarrinho">
+                    <img src="/img/produtocarrinho/51degAt5CFL._AC_AA180_.jpg">
+                    <div class="col-9">
+                        <h2>Fire TV Stick | Streaming em Full HD com Alexa | Com Controle Remoto por Voz com Alexa
+                            (inclui comandos de TV)</h2>
+                    </div>
+                    <h3>R$ 360,05</h3>
+                </div>
+                <div>
+                    <img src="/img/produtocarrinho/714Rq4k05UL._AC_AA180_.jpg">
+                    <h2>Echo Dot (4ª Geração): Smart Speaker com Alexa - Cor Preta</h2>
+                    <h3>R$ 379,05</h3>
+                </div>
+            </div>
+        </nav>
+    </main>
+</body>
+
+</html>
