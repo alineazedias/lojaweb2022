@@ -62,3 +62,7 @@
 .bg-red-dark {
     background-color: var(--red-dark);
 }
+
+.bd-gray {
+    border-color: var(--gray);
+}
